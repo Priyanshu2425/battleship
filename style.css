@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+table{
+    color: white;
+    border-collapse: collapse;
+}
+
+td{
+    height: 50px;
+    width: 50px;
+    border-style: dashed;
+    text-align: center;
+}
+
+.homeRow{
+    border: none;
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+#messagebox{
+    width:100%;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+#game{
+    width: 450px;
+    margin: 0 auto;
+}
+
+input, button{
+    background-color: grey;
+    color: black;
+    font-weight: 900;
+}
+
+#playerInput{
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 5px;
+    width: 260px;
+    height: 20px;
+    background-color: darkgrey;
+}
+
+.miss{
+    background-image: url("images/miss.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hit{
+    background-image: url("images/ship.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
